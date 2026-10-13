@@ -1,0 +1,3 @@
+# Course notebooks from the MolSSI/IQB cheminformatics crash course (third-party tutorial material),
+# excluded from language statistics so the profile reflects my own code.
+*.ipynb linguist-vendored
