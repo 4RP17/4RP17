@@ -1,5 +1,5 @@
 <h1 align="center">Arpit Kumar</h1>
-<p align="center"><b>Computational Chemistry · Molecular Physics · Electronic Structure & Molecular Simulation</b></p>
+<p align="center"><b>Computational Chemistry · Molecular Physics · FEA, Magnetostatics & Magnetohydrodynamics</b></p>
 <p align="center">
   <a href="https://www.linkedin.com/in/arpit-kumar-i"><img src="https://img.shields.io/badge/LinkedIn-arpit--kumar--i-0A66C2?logo=linkedin&logoColor=white"></a>
   <img src="https://img.shields.io/badge/B.Sc.%20(Hons)%20Physics-MAHE%20Manipal-8B0000">
@@ -10,6 +10,8 @@
 
 ### About
 I'm a physicist moving into **computational chemistry**. My work connects quantum-chemical calculations with what you can measure in the lab: vibrational spectra, magnetic susceptibility, and transport.
+
+At the continuum scale I work on **finite-element analysis (FEA)** of magnetostatic fields and **magnetohydrodynamics (MHD)**: how magnetic fields and field gradients act on conducting fluids and dissolved species. Molecular simulation and continuum simulation are two ends of the same problem.
 
 For my B.Sc. (Hons) Physics thesis at Manipal Institute of Applied Physics (minor in Mathematics) I combined three things:
 - **DFT** (ORCA, r²SCAN-3c / CPCM) on aqueous As(III) and As(V) species
@@ -24,7 +26,9 @@ Next: a master's in **computational molecular science**.
 - **Electronic structure:** DFT and composite methods (r²SCAN-3c, PBE0-D4), implicit/explicit solvation, vibrational analysis, magnetic and NMR response properties
 - **Molecular simulation:** Langevin and Brownian dynamics, classical MD in explicit solvent, diffusion and transport coefficients
 - **Spectroscopy–theory correlation:** calculated against experimental IR, peak deconvolution, speciation fingerprints
-- **Continuum modelling:** magnetostatics (FEM) and computational fluid dynamics for transport in aqueous media
+- **FEA and computational electromagnetics:** finite-element magnetostatics, field and field-gradient mapping (|B|, B·∇B), mesh-convergence checks against analytical solutions
+- **Magnetohydrodynamics (MHD):** Lorentz-force-driven flow of electrolytes, Hartmann-type channel flow, coupling between magnetic fields and ion transport
+- **CFD:** transport and mixing in aqueous media, linking continuum models to molecular-scale diffusion coefficients
 - **Cheminformatics and ML for molecules**
 
 ### Featured work
@@ -39,10 +43,11 @@ Next: a master's in **computational molecular science**.
 
 ### Toolbox
 **Quantum chemistry:** ORCA (Opt/Freq, CPCM, NMR inputs)  
-**Simulation and numerics:** Python (NumPy, SciPy, pandas, Matplotlib) · Jupyter · FEMM  
+**FEA and multiphysics:** FEMM (magnetostatics, Lua scripting) · Python post-processing of field data  
+**Simulation and numerics:** Python (NumPy, SciPy, pandas, Matplotlib) · Jupyter  
 **Cheminformatics and docking:** RDKit · gnina  
 **Data and spectroscopy:** OriginPro · FTIR peak fitting · VSM M–H analysis  
-**Currently learning:** GROMACS / OpenMM · xTB / CREST · CP2K · OpenFOAM
+**Currently learning:** GROMACS / OpenMM · xTB / CREST · CP2K · Elmer FEM · OpenFOAM (mhdFoam)
 
 <p>
   <img src="https://img.shields.io/badge/ORCA-DFT-1f6feb">
@@ -55,6 +60,6 @@ Next: a master's in **computational molecular science**.
 </p>
 
 ### Open to
-Research internships, collaborations and M.Sc./PhD conversations in computational chemistry, molecular simulation and theoretical spectroscopy.
+Research internships, collaborations and M.Sc./PhD conversations in computational chemistry, molecular simulation, FEA/MHD modelling and theoretical spectroscopy.
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=4RP17&layout=compact&hide_border=true" height="140"></p>
